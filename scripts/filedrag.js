@@ -84,7 +84,7 @@
 	function UploadFile(file) {
 
 		var xhr = new XMLHttpRequest();
-		if (xhr.upload && file.type == "image/png" && file.size <= $id("MAX_FILE_SIZE").value) {
+		if (xhr.upload && file.type == "image/png" || "image/jpg" || "image/jpeg" || "image/gif" && file.size <= $id("MAX_FILE_SIZE").value) {
 
 			// create progress bar
 			var o = $id("progress");
