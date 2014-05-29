@@ -64,7 +64,10 @@
     </p>
   </form>
 </div>
-<div id="footer">I hope you have experienced the red carpet</p>
-</div></div>
+<div id="footer"> 
+<p>
+  <a href="git@heroku.com:red-carpet.git">git@heroku.com:red-carpet.git</a>
+</p>
+
 </body>
 </html>
